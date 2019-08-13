@@ -1,0 +1,26 @@
+{
+    "name": "electron-notion-wrapper",
+    "version": "0.0.1",
+    "description": "Notion Web App wapper for linux",
+    "main": "main.js",
+    "scripts": {
+        "clean": "rimraf dist",
+        "start": "electron .",
+        "bundle:x64": "electron-packager . --platform linux --arch x64 --out dist/",
+        "deb:x64": "electron-installer-debian --src dist/electron-notion-wrapper-linux-x64/ --arch amd64 --config config.json",
+        "build": "yarn clean && yarn bundle:x64 && yarn deb:x64"
+    },
+    "repository": "https://github.com/JosephDev/notion-wrapper",
+    "keywords": [
+        "Electron",
+        "notion"
+    ],
+    "author": "JosephDev",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^6.0.1",
+        "electron-installer-debian": "*",
+        "electron-packager": "^13.0.0",
+        "rimraf": "^2.6.2"
+    }
+}
