@@ -19,3 +19,5 @@ yarn
 ``` bash
 yarn build
 ```
+
+deb file is avaiable under `dist/installers`.
