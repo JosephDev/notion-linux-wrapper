@@ -1,6 +1,6 @@
-# Notion Linux Wrapper
+# Notion.so Linux Desktop application
 
-Notion doesn't have offitial client for debian. This project is wrapping Notion's web app.
+[Notion.so](https://www.notion.so) doesn't have offitial client for debian. This project is wrapping Notion.so web application with electron.
 
 If you want to build yourself.
 
