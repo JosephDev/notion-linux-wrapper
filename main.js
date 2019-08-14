@@ -1,16 +1,26 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
+const windowStateKeeper = require('electron-window-state');
 
 let win
 
 function createWindow () {
+  let mainWindowState = windowStateKeeper({
+    defaultWidth: 800,
+    defaultHeight: 600
+  });
+
   win = new BrowserWindow({
-    width: 640,
-    height: 480,
+    x: mainWindowState.x,
+    y: mainWindowState.y,
+    width: mainWindowState.width,
+    height: mainWindowState.height,
     webPreferences: {
       nodeIntegration: true,
     },
     autoHideMenuBar: true,
   })
+  mainWindowState.manage(win)
+  
   win.loadURL("https://www.notion.so/login")
 
   win.on('closed', () => {

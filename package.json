@@ -1,6 +1,6 @@
 {
     "name": "notion-electron-wrapper",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Notion Web App wapper for linux",
     "main": "main.js",
     "scripts": {
@@ -22,5 +22,8 @@
         "electron-installer-debian": "*",
         "electron-packager": "^13.0.0",
         "rimraf": "^2.6.2"
+    },
+    "dependencies": {
+        "electron-window-state": "^5.0.3"
     }
 }
