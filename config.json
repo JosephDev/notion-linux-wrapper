@@ -1,4 +1,6 @@
 { 
+  "name": "notion-linux",
+  "productName": "Notion",
   "dest": "dist/installers/",
   "icon": "resources/Icon.png",
   "categories": [
