@@ -1,25 +1,48 @@
 # Notion.so Linux Desktop application
 
-[Notion.so](https://www.notion.so) doesn't have offitial client for debian yet. This project is wrapping Notion.so web application with electron.
+[Notion.so](https://www.notion.so) doesn't have offitial client for linux yet. This project is wrapping Notion.so web application with electron.
+
+![notion_linux_screenshot](resources/screenshot.png?raw=true "Notion.so Linux App")
+
+## How to use
+
+### Prebuild version
 
 [Download deb file](https://github.com/JosephDev/notion-linux-wrapper/tree/master/dist/installers) and install. DONE!
 
-If you want to build yourself.
+### Build yourself
 
-1. clone project
-``` bash
-git clone https://github.com/JosephDev/notion-linux-wrapper
-```
+#### Prerequisites
 
-2. install node packages
-``` bash
-yarn
-```
+1. Git
+2. Node: any 8.x version starting with 8.4.0 or greater
+3. Yarn: See Yarn website for installation instructions
 
-3. build
+#### Installation
 
-``` bash
-yarn build
-```
+1. Clone project
 
-deb file is avaiable under `dist/installers`.
+   ``` bash
+   git clone https://github.com/JosephDev/notion-linux-wrapper
+   ```
+
+2. Install node packages
+
+   ``` bash
+   yarn
+   ```
+
+3. Running locally
+
+   ``` bash
+   yarn start
+   ```
+
+4. Build in your local machine
+
+   ``` bash
+   yarn build
+   ```
+
+   If build successfully, deb file is avaiable under `dist/installers`.
+
