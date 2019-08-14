@@ -8,7 +8,7 @@
 
 ### Prebuild version
 
-[Download deb file](https://github.com/JosephDev/notion-linux-wrapper/tree/master/dist/installers) and install. DONE!
+[Download deb file](https://github.com/JosephDev/notion-linux-wrapper/tree/master/dist/installers) and install. DONE! :tada: :confetti_ball:
 
 ### Build yourself
 
@@ -46,3 +46,6 @@
 
    If build successfully, deb file is avaiable under `dist/installers`.
 
+## License
+
+MIT licensed, as found in the [LICENSE.md](./LICENSE.md) file.
