@@ -3,18 +3,18 @@
 [Notion.so](https://www.notion.so) doesn't support an official client for linux yet. This project is simply wrapping Notion.so web application with Electron.
 
 ## Screenshot
-![notion_linux_screenshot](resources/screenshot.png?raw=true "Notion.so Linux App")
 
+![notion_linux_screenshot](resources/screenshot.png?raw=true "Notion.so Linux App")
 
 ## Prebuild version - Debian, Ubuntu, Mint
 
-[Download .deb file](https://github.com/JosephDev/notion-linux-wrapper/tree/master/dist/installers) and install it. DONE! :tada: :confetti_ball:
+[Download .deb file](https://github.com/JosephDev/notion-linux-wrapper/releases) and install it. DONE! :tada: :confetti_ball:
 
 ## Verified Environment
+
 - Ubuntu 16.04
 - Ubuntu 18.04
 - Linux Mint 19.01
-
 
 ## Build in your local machine
 
